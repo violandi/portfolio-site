@@ -1,0 +1,341 @@
+/***** class .  id # *****/
+
+/***** MAIN STYLES *****/
+
+body {
+  font-family: 'Cabin', sans-serif;
+}
+#navigation{
+  height: 100px;
+}
+
+#about{
+  height: 600px;
+}
+
+#work{
+  height: 600px;
+}
+
+#services{
+  height: 600px;
+}
+
+#contact{
+  height: 600px;
+}
+
+#footer{
+  height: 100px;
+}
+
+
+
+/****** GRID STYLES *****/
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  float:left;
+}
+
+.third-width {
+  width: 400px;
+  float:left;
+}
+
+.quarter-width {
+  width: 300px;
+  float:left;
+}
+
+/***** HEADER SECTION *****/
+
+header {
+  background-color: #ffffff;
+}
+
+h1{
+  font-family: 'Cabin', sans-serif;
+  font-size: 60px;
+  color: #f7064a;
+  line-height: -115px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bolder;
+}
+
+header h2 {
+  font-weight: 200;
+  text-transform: uppercase;
+  font-size: 36px;
+}
+
+header h2 span {
+  font-size: 19px;
+  text-transform: uppercase;
+}
+
+header a {
+  text-decoration: none;
+}
+
+
+nav {
+  float: right;
+  margin-top: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 200;
+  padding-left: 40px;
+  color: black;
+}
+
+/***** INTRO *****/
+#intro {
+  background-image: url('../img1/desk.jpg');
+  background-size: cover;
+  height: 600px;
+}
+
+#intro h2{
+  color: #8585ad;
+  font-family: 'Roboto Slab', serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding: 100px 0 0 0;
+  text-align: center;
+}
+
+/***** ABOUT *****/
+
+#about .full-width {
+  padding: 80px 0;
+}
+
+#about h2 {
+  font-family:'Cabin',serif;
+  font-size: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+#about p {
+  font-family: 'Roboto Slab';
+  font-size:21px;
+  color:#000000;
+  line-height: 35px;
+  padding-right: 50px;
+  text-align: left;
+}
+
+
+/***** WORK *****/
+
+#work {
+  background-color: #e0e0eb;
+  padding-top: 30px;
+
+}
+
+#work h2{
+  font-family:'Cabin',serif;
+  font-size: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+  letter-spacing: 2px;
+}
+
+#work h3{
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#work p{
+  font-family: 'Roboto Slab';
+  text-align: center;
+}
+
+#work img {
+  width: 300px;
+  height: 200px;
+  padding-left: 50px;
+  margin-top: 25px;
+
+}
+
+
+/***** SERVICES *****/
+
+
+#services {
+  background-color: #ffffff;
+}
+
+#services h2 {
+  font-family:'Cabin',serif;
+  font-size: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+  color: #000;
+  letter-spacing: 2px;
+}
+
+#services h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 24px;
+  color: #000;
+  margin-top: 0px;
+  padding-bottom: 30px;
+}
+
+
+#services p {
+  text-align: center;
+  font-family: 'Roboto Slab';
+}
+
+#services img {
+  display: block;
+  margin: auto;
+  margin-bottom: 80px;
+  width: 75px;
+  max-height: 75px;
+}
+
+#services .full-width a {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  padding: 15px 25px;
+  border: 1px solid #fff;
+  background-color: #758a8f;
+}
+
+
+#services {
+
+  padding-top: 50px;
+}
+
+
+/***** CONTACT *****/
+
+#contact {
+  background-color: #e0e0eb;
+}
+
+#contact .full-width {
+  padding: 110px 0;
+}
+
+#contact-img {
+  border: 12px solid #ffffff;
+}
+
+#contact h2, #email-header, #contact a, #socialmedia-header, #contact ul {
+  padding-left: 115px;
+}
+
+#envelope {
+  padding: 0 10px 0 115px;
+  width: 60px;
+  max-height: 60px;
+  line-height: 24px;
+}
+
+#contact h2 {
+  font-family: 'Cabin',serif;
+  font-size:36px;
+  text-transform: uppercase;
+  line-height: 24px;
+}
+
+#contact h3 {
+  font-family: 'Cabin',serif;
+  font-size:24px;
+
+  line-height: 28px;
+
+}
+
+#email-header{
+  font-size:32px;
+  font-weight:400;
+  margin: -30px 0 5px 0;
+}
+
+#socialmedia-header {
+  font-weight:bold;
+  font-size:29px;
+  margin: 40px 0 0 0;
+}
+
+#contact a {
+  text-decoration:none;
+  color: #000000;
+  font-size:35px;
+  text-align: center;
+  line-height: 150px;
+  font-family: 'cabin',serif;
+  color: #4775d1;
+  font-style: italic;
+}
+
+
+
+#contact ul img {
+  padding-right: 80px;
+}
+
+
+  /***** FOOTER SECTION *****/
+
+footer {
+  clear: both;
+  height: 150px;
+}
+
+footer h2 {
+  padding-top: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 200;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+#footer ul {
+  list-style: none;
+}
+
+#footer ul li {
+  display: inline-block;
+
+}
+
+#footer ul img {
+  padding-right: 50px;
+}
+
+#socialmedia-links {
+  padding: 10px 30px 0 520px;
+}
